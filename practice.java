@@ -9,5 +9,5 @@ public class practice {
         x = 5; // assignment
         int y = 10; // initialization
         System.out.println("this no. is " + (x + y));
+        double symbol = 3.14;
     }
-}
