@@ -65,5 +65,15 @@ public class practice {
 
         int age2 = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
         JOptionPane.showMessageDialog(null, "You are " + age2 + " years old");
+
+        // Math class
+
+        double x3 = 10;
+        double z1 = Math.sqrt(x3);
+        double z2 = Math.max(x3, z1);
+        double z3 = Math.abs(-10);
+        // Other - Math.pow(x,y), Math.random(), Math.ceil(), Math.floor(), Math.round()
+
+        
     }
 }
