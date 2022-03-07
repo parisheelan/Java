@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+import java.util.Random;
 
 public class practice {
     public static void main(String[] args) {
@@ -60,11 +61,13 @@ public class practice {
 
         // GUI
 
-        String name2 = JOptionPane.showInputDialog("Enter your name");
-        JOptionPane.showMessageDialog(null, "Hello " + name2);
-
-        int age2 = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
-        JOptionPane.showMessageDialog(null, "You are " + age2 + " years old");
+        /*
+         * String name2 = JOptionPane.showInputDialog("Enter your name");
+         * JOptionPane.showMessageDialog(null, "Hello " + name2);
+         * 
+         * int age2 = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
+         * JOptionPane.showMessageDialog(null, "You are " + age2 + " years old");
+         */
 
         // Math class
 
@@ -74,6 +77,10 @@ public class practice {
         double z3 = Math.abs(-10);
         // Other - Math.pow(x,y), Math.random(), Math.ceil(), Math.floor(), Math.round()
 
-        
+        // Random Class
+
+        Random random = new Random();
+        int x4 = random.nextInt(6)+1;   // Random value between 1 and 6.
+        System.out.println(x4);
     }
 }
